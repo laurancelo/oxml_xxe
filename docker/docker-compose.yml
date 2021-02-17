@@ -1,8 +1,8 @@
-version: "2.2"
+version: "2.3"
 
 services:
 
   web:
     build: ./
     ports:
-      - "127.0.0.1:4567:10001"
+      - "127.0.0.1:4567:4567"
